@@ -1,0 +1,17 @@
+
+{
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "javascript.format.enable": false,
+  "typescript.format.enable": false,
+  "standard.enable": true,
+  "standard.engine": "ts-standard",
+  "standard.autoFixOnSave": true,
+  "editor.formatOnSave": true,
+  "standard.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ]
+}

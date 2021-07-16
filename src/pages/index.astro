@@ -1,0 +1,31 @@
+---
+import MainHead from "../components/MainHead.astro"
+import Card from "../components/Card";
+import Footer from "../components/Footer";
+
+---
+
+<html lang="en">
+  <head>
+    <MainHead />
+  </head>
+  <body class="container-xl bg-background text-white">
+    <main>
+    <div class="max-w-6xl m-auto">
+      <div>
+          <p>I'm Stephen Mccarrick, a Frontend Engineer working out of North West of England. Currently building applications for Interactive Investor</p>
+      </div>
+      <div>
+        <h2>Experience</h2>
+            <div class="grid xs:grid-cols-1 sm:grid-cols-2 gap-4">
+            <Card title="Just Glow" />
+            <Card title="Just Glow" />
+            <Card title="Just Glow" />
+            <Card title="Just Glow" />
+          </div>
+      </div>
+    </div>
+    </main>
+    <Footer />
+  </body>
+</html>
